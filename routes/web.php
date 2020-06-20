@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/atodeyomu', 'AtodeyomuController@index');
+Route::get('/', 'AtodeyomuController@index');
 Route::post('/atodeyomu', 'AtodeyomuController@register');
