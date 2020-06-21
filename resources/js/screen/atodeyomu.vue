@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     async getPreview(urls) {
-      const res = await axios.get('http://localhost/api/linkPreview', {
+      const res = await axios.get('/api/linkPreview', {
         params: { urls }
       });
       this.linkPreviews = res.data;
