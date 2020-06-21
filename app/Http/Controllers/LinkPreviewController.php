@@ -62,7 +62,7 @@ class LinkPreviewController extends Controller
       return $uri.$path;
     }
 
-    return 'http:'.mix('m_e_others_500.png');
+    return asset('image/m_e_others_500.png');
   }
 
   private function getSiteName($goutte): string {
